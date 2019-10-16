@@ -1,0 +1,92 @@
+body{
+    background-color: #ccc;
+}
+.contant{
+    background-color: #fff;
+    max-width: 1400px;
+}
+.contant .one{
+    height: 55rem;
+    background-image: url(../images/spot-bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
+    padding-top:10rem;
+}
+.contant .circal1{
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    padding: 95px 81px 75px 90px;
+    background-color: #fff;
+}
+.contant .head{
+    margin-bottom: 2rem;
+}
+.contant .head h2{
+    font-size: 2rem;
+    color: #cc0064;
+}
+.contant .head h4{
+    font-size: 1.3rem;
+    color:#0095bf;
+}
+.contant  p{
+    color: #6c6c6c;
+    line-height:2.2;
+    font-weight: 500;
+    font-size: 18px;
+}
+.contant .btn{
+    background-color:#0095bf;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contant .tow{
+    margin-top: 5rem;
+}
+.contant  img{
+    border-radius: 50%;
+}
+.contant .three{
+    height: 55rem;
+    background-image: url(../images/spot-bg-02.jpg);
+    background-size: cover;
+    -webkit-clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+    background-repeat: no-repeat;
+    padding-top:10rem;
+}
+.contant .three .head{
+    margin-bottom: .5rem;
+}
+.contant .three ul li{
+    color: #6c6c6c;
+    font-weight: 500;
+    line-height: 2;
+    font-size: 18px;
+    list-style:none;
+}
+ul> li:before {
+    content: "-";
+    margin-right: 5px;
+    text-indent: -5px;
+}
+.contant .four{
+    margin-top: 5rem
+}
+.contant .four .form .form-control{
+    border: none;
+    border-bottom: 1px solid #cc0064;
+    border-radius: 0;
+    display: block;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    width: 75%;
+}
+.contant .four .btn{
+    background-color:#cc0064 
+}
